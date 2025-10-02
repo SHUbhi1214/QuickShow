@@ -1,5 +1,6 @@
 import { Inngest } from "inngest";
 import User from "../models/user.js";
+
 export const inngest = new Inngest({ id: "movie-ticket-booking" });
 
 //inngest fn to save user data to database
